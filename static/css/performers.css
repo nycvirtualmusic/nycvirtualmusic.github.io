@@ -2,7 +2,7 @@
 COMPUTER
 *************************/
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 780px) {
 	body {
 	  font-size: 1em;
 	  font-family: "Spartan", sans-serif;
@@ -89,6 +89,77 @@ COMPUTER
 		height: 4vh;
 		margin: 1vh 2%;
 	}
+}
+
+/*************************
+TABLET
+*************************/
+@media screen and (max-width: 780px) and (min-width: 480px) {
+	body {
+	  font-size: 1em;
+	  font-family: "Spartan", sans-serif;
+	  font-weight: 400;
+	  overflow-x: hidden;
+	  height: 100vh;
+	}
+
+	header {
+		position: absolute;
+		top: 0;
+		width: 99vw;
+		height: 10vh;
+		padding-top: 7vh;
+		text-align: center;
+	}
+
+	header > a {
+		text-decoration: none;
+		color: black;
+		margin: 0 5vw;
+	}
+
+	h1 {
+		font-weight: 400;
+	}
+
+	#landing-text-holder {
+		padding-top: 15vh;
+		text-align: center;
+		width: 80%;
+		margin: auto;
+	}
+
+	footer {
+		position: relative;
+		width: 99vw;
+		margin: 0;
+		bottom: 0;
+		font-size: .75em;
+		text-align: center;
+		padding-bottom: 2vh;
+	}
+
+	p {
+		line-height: 5vh;
+		margin: 0;
+	}
+
+	footer > img {
+		width: 100%;
+		margin-bottom: 5vh;
+	}
+
+	#logos {
+		display: inline;
+		text-align: center;
+		justify-content: center;
+	}
+
+	.logo {
+		height: 4vh;
+		margin: 1vh 2%;
+	}
+
 }
 
 /*************************
