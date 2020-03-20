@@ -2,7 +2,7 @@
 COMPUTER
 *************************/
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 1024px) {
 	body {
 	  font-size: 1em;
 	  font-family: "Spartan", sans-serif;
@@ -94,7 +94,7 @@ COMPUTER
 /*************************
 TABLET
 *************************/
-@media screen and (max-width: 780px) and (min-width: 480px) {
+@media screen and (max-width: 1024px) and (min-width: 480px) {
 	body {
 	  font-size: 1em;
 	  font-family: "Spartan", sans-serif;

@@ -2,7 +2,115 @@
 COMPUTER
 *************************/
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 1024px) {
+	body {
+	  font-size: 1em;
+	  font-family: "Spartan", sans-serif;
+	  font-weight: 400;
+	  overflow-x: hidden;
+	  height: 100vh;
+	}
+
+	header {
+		position: fixed;
+		top: 0;
+		width: 99vw;
+		height: 5vh;
+		background-color: white;
+		padding-top: 3vh;
+		text-align: center;
+	}
+
+	header > a {
+		text-decoration: none;
+		color: black;
+		margin: 0 5vw;
+	}
+
+	h1 {
+		font-weight: 400;
+	}
+
+	#landing > div {
+		height: 100vh;
+	}
+
+	#landing-text-holder {
+		width: 80%;
+		float: left;
+		margin-top: 10vh;
+	  	margin-left: 20vh;
+        text-align: left;
+	}
+
+	.row {
+	  display: inline;
+	}
+
+	.row > img {
+		max-height: 10%;
+		max-width: 20%;
+	  	padding-right: 40px;
+	}
+
+	footer {
+		position: fixed;
+		width: 99vw;
+		margin: 0;
+		bottom: 0;
+		font-size: .75em;
+		text-align: center;
+	}
+
+	#footer-div {
+		position: fixed;
+		width: 99vw;
+		margin: 0;
+		bottom: 0;
+		height: 10.5vh;
+		background-color: white;
+		text-align: center;
+	}
+
+	footer > img {
+		width: 100%;
+		margin-bottom: 10vh;
+	}
+
+	#bodytext {
+	  text-align: justify;
+	  margin-right: 120px;
+	  line-height: 25px;
+      font-size: 14px;
+      margin-bottom: 20vh;
+    }
+
+    #bodytext a {
+    	color: black;
+    }
+
+    .bold {
+    	font-weight: 600;
+    }
+
+    #logos {
+		display: inline;
+		text-align: center;
+		justify-content: center;
+	}
+
+	.logo {
+		height: 4vh;
+		margin: 1vh 2%;
+	}
+  
+}
+
+/*************************
+TABLET
+*************************/
+
+@media screen and (max-width: 1024px) and (min-width: 480px) {
 	body {
 	  font-size: 1em;
 	  font-family: "Spartan", sans-serif;
@@ -179,5 +287,13 @@ MOBILE
 		height: 4vh;
 		margin: 1vh 2%;
 	}
+
+	#bodytext {
+      margin-bottom: 20vh;
+    }
+
+    #bodytext a {
+    	color: black;
+    }
 
 }
