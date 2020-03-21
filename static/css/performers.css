@@ -56,16 +56,18 @@ COMPUTER
 	}
 
 	footer {
-		position: absolute;
+		position: fixed;
 		width: 99vw;
 		margin: 0;
 		bottom: 0;
 		font-size: .75em;
 		text-align: center;
+		z-index: -999;
 	}
 
 	footer > img {
 		width: 100%;
+		z-index: -999;
 	}
 
 	h1 {
@@ -81,6 +83,7 @@ COMPUTER
 	  margin-right: 120px;
 	  line-height: 25px;
 	  font-size: 14px;
+	  z-index: 999;
 	}
 
 	#logos {
