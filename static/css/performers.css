@@ -49,9 +49,9 @@ COMPUTER
 	}
 
 	.row > p {
-	  	padding-right: 5%;
+	  	padding-right: 10%;
 	  	float: left;
-	  	line-height: 5vh;
+	  	line-height: 4vh;
 	  	font-size: .8em;
 	}
 
@@ -76,14 +76,6 @@ COMPUTER
 
 	a {
 		color: black;
-	}
-
-	#bodytext {
-	  text-align: justify;
-	  margin-right: 120px;
-	  line-height: 25px;
-	  font-size: 14px;
-	  z-index: 999;
 	}
 
 	#logos {
