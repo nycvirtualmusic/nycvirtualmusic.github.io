@@ -160,6 +160,10 @@ TABLET
 		margin-bottom: 5vh;
 	}
 
+	#scroll {
+		display: none;
+	}
+
 	#logos {
 		display: inline;
 		text-align: center;
@@ -228,6 +232,10 @@ MOBILE
 	p {
 		line-height: 5vh;
 		margin: 0;
+	}
+	
+	#scroll {
+		display: none;
 	}
 
 	footer > img {
