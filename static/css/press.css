@@ -103,6 +103,10 @@ COMPUTER
 		height: 4vh;
 		margin: 1vh 2%;
 	}
+
+	#scroll {
+
+	}
   
 }
 
@@ -190,7 +194,6 @@ TABLET
 	  margin-right: 120px;
 	  line-height: 25px;
       font-size: 14px;
-      /*margin-bottom: 20vh;*/
     }
 
     #tr-footer{
