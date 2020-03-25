@@ -62,14 +62,15 @@ COMPUTER
 		width: 99vw;
 		margin: 0;
 		bottom: 0;
+		margin-bottom: 6vh;
 		font-size: .75em;
 		text-align: center;
-		z-index: -999;
+		z-index: -1;
 	}
 
 	footer > img {
 		width: 100%;
-		z-index: -999;
+		z-index: -1;
 	}
 
 	h1 {
@@ -86,15 +87,27 @@ COMPUTER
 		color: grey;
 	}
 
-	#logos {
+	#cpu-logos {
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translate(-50%, 0);
+		height: 6vh;
+		width: 100%;
 		display: inline;
 		text-align: center;
 		justify-content: center;
+		z-index: 999;
 	}
 
-	.logo {
+	.cpu-logo {
 		height: 4vh;
 		margin: 1vh 2%;
+		z-index: 999;
+	}
+
+	#logos {
+		display: none;
 	}
 }
 
@@ -175,6 +188,10 @@ TABLET
 		margin: 1vh 2%;
 	}
 
+	#cpu-logos {
+		display: none;
+	}
+
 }
 
 /*************************
@@ -252,6 +269,10 @@ MOBILE
 	.logo {
 		height: 4vh;
 		margin: 1vh 2%;
+	}
+
+	#cpu-logos {
+		display: none;
 	}
 
 }
