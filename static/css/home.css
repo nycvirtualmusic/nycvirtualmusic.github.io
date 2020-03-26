@@ -124,6 +124,10 @@ COMPUTER
 		height: 4vh;
 		margin: 1vh 2%;
 	}
+
+	a {
+		color: black;
+	}
 }
 
 /*************************
@@ -230,6 +234,16 @@ TABLET
 		height: 4vh;
 		margin: 1vh 2%;
 	}
+
+	a {
+		color: black;
+	}
+
+	iframe {
+		width: 75vw;
+		height: 42vw;
+	}
+
 }
 
 /*************************
@@ -336,4 +350,14 @@ MOBILE
 		height: 4vh;
 		margin: 1vh 2%;
 	}
+
+	a {
+		color: black;
+	}
+
+	iframe {
+		width: 75vw;
+		height: 42vw;
+	}
+
 }
