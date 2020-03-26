@@ -62,7 +62,6 @@ COMPUTER
 		width: 99vw;
 		margin: 0;
 		bottom: 0;
-		margin-bottom: 6vh;
 		font-size: .6em;
 		text-align: center;
 		z-index: -1;
@@ -71,6 +70,7 @@ COMPUTER
 	footer > img {
 		width: 100%;
 		z-index: -1;
+		margin-bottom: 6vh;
 	}
 
 	h1 {
@@ -89,7 +89,7 @@ COMPUTER
 
 	#cpu-logos {
 		position: absolute;
-		bottom: 0;
+		bottom: 4vh;
 		left: 50%;
 		transform: translate(-50%, 0);
 		height: 6vh;
