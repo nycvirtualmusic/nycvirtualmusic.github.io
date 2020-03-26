@@ -58,7 +58,7 @@ COMPUTER
 		width: 99vw;
 		margin: 0;
 		bottom: 0;
-		font-size: .75em;
+		font-size: .6em;
 		text-align: center;
 	}
 
@@ -110,7 +110,7 @@ COMPUTER
 	#scroll {
 
 	}
-  
+
 }
 
 /*************************
@@ -227,7 +227,7 @@ TABLET
 		height: 4vh;
 		margin: 1vh 2%;
 	}
-  
+
 }
 
 /*************************
