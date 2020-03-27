@@ -91,11 +91,21 @@ COMPUTER
 		width: 100%;
 	}
 
+	#about-subheading {
+	  text-align: left;
+	  margin-right: 120px;
+	  line-height: 25px;
+	  font-size: 12px;
+	  font-weight: 600;
+	}
+
 	#subheading {
 	  text-align: left;
 	  margin-right: 120px;
 	  line-height: 25px;
 	  font-size: 12px;
+	  font-weight: 600;
+	  width: 600px;
 	}
 
 	#bodytext {
@@ -103,11 +113,6 @@ COMPUTER
 	  margin-right: 120px;
 	  line-height: 25px;
 	  font-size: 12px;
-	}
-
-	#subheading {
-		font-weight: 600;
-		width: 600px;
 	}
 
 	#quotes {
