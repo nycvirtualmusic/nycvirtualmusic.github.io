@@ -142,8 +142,9 @@ COMPUTER
 	}
 
 	iframe {
-		height:40%;
+		height:40vh;
 		max-height:315px;
+		width: 71vh;
 	}
 }
 
