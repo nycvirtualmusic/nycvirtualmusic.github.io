@@ -70,8 +70,8 @@ COMPUTER
 	#bodytext {
 	  text-align: justify;
 	  margin-right: 120px;
-	  line-height: 25px;
-	  font-size: 14px;
+	  line-height: 3vh;
+	  font-size: .8em;
 	}
 
 	#logos {
