@@ -153,6 +153,12 @@ COMPUTER
 		max-height:315px;
 		width: 71vh;
 	}
+
+	#thumbnail {
+		height:40vh;
+		max-height:315px;
+		width: 71vh;
+	}
 }
 
 /*************************
@@ -269,6 +275,11 @@ TABLET
 		height: 42vw;
 	}
 
+	#thumbnail {
+		width: 75vw;
+		height: 42vw;
+	}
+
 }
 
 /*************************
@@ -381,6 +392,11 @@ MOBILE
 	}
 
 	iframe {
+		width: 75vw;
+		height: 42vw;
+	}
+
+	#thumbnail {
 		width: 75vw;
 		height: 42vw;
 	}
