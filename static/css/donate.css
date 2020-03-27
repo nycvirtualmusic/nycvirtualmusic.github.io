@@ -2,7 +2,7 @@
 COMPUTER
 *************************/
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 1025px) {
 	body {
 	  font-size: 1em;
 	  font-family: "Spartan", sans-serif;
@@ -94,13 +94,17 @@ COMPUTER
 /*************************
 MOBILE
 *************************/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1024px) {
 	body {
 	  font-size: 1em;
 	  font-family: "Spartan", sans-serif;
 	  font-weight: 400;
 	  overflow-x: hidden;
 	  height: 100vh;
+	}
+
+	a {
+		color: black;
 	}
 
 	header {

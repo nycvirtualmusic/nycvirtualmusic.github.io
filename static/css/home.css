@@ -115,6 +115,13 @@ COMPUTER
 	  font-size: 12px;
 	}
 
+	#about-bodytext {
+	  text-align: left;
+	  margin-right: 120px;
+	  line-height: 3vh;
+	  font-size: 12px;
+	}
+
 	#quotes {
 		font-family: 'Passion One', cursive;
 		font-size: 15px;
