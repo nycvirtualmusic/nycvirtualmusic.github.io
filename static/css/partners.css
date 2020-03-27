@@ -67,13 +67,17 @@ COMPUTER
 		width: 100%;
 	}
 
+	#sub-heading {
+		font-weight: 500;
+	}
+
 	#bodytext {
 	  text-align: justify;
 	  margin-right: 120px;
-	  line-height: 25px;
+	  line-height:	6vh;
 	  font-size: 14px;
 	}
-
+	
 	#logos {
 		display: inline;
 		text-align: center;
