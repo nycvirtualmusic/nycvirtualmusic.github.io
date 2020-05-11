@@ -52,7 +52,7 @@ COMPUTER
 	}
 
 	.row > p {
-	  	padding-right: 8%;
+	  	margin-right: 5vw;
 	  	float: left;
 	  	line-height: 4vh;
 	  	font-size: .75em;
@@ -112,15 +112,15 @@ COMPUTER
 	}
 
 	.performer_heading {
-		font-size: 1.2em;
+		font-size: 1.1em;
 	  font-family: "Spartan", sans-serif;
 	  font-weight: 400;
 		text-decoration: none;
 	}
 
 	#thumbnail {
-		max-height:315px;
-		width: 60vh;
+		/*max-height: 30vh;*/
+		width: 35vw;
 		margin-top: 2vh;
 	}
 }
