@@ -3,6 +3,12 @@ COMPUTER
 *************************/
 
 @media screen and (min-width: 1025px) {
+	#landing-text-scroll {
+		/*background-color: blue;*/
+		height: 65vh;
+		overflow-y: scroll; 
+	}
+
 	#about-heading {
 		margin-top: 8vh;
 	}
@@ -107,8 +113,17 @@ COMPUTER
 	  text-align: left;
 	  margin-right: 120px;
 	  line-height: 25px;
-	  font-size: 12px;
+	  font-size: 15px;
 	  font-weight: 600;
+	  width: 600px;
+	}
+
+	#subtext {
+	  text-align: left;
+	  margin-right: 120px;
+	  line-height: 25px;
+	  font-size: 12px;
+	  /*font-weight: 600;*/
 	  width: 600px;
 	}
 
@@ -159,8 +174,8 @@ COMPUTER
 	}
 
 	#thumbnail {
-		height:40vh;
-		max-height:315px;
+		/*height:40vh;*/
+		/*max-height:315px;*/
 		width: 71vh;
 	}
 }
@@ -281,7 +296,11 @@ TABLET
 
 	#thumbnail {
 		width: 75vw;
-		height: 42vw;
+		/*height: 42vw;*/
+	}
+
+	#subtext {
+	  font-size: .75em;
 	}
 
 }
@@ -402,7 +421,11 @@ MOBILE
 
 	#thumbnail {
 		width: 75vw;
-		height: 42vw;
+		/*height: 42vw;*/
+	}
+
+	#subtext {
+	  font-size: .75em;
 	}
 
 }
