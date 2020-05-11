@@ -3,6 +3,12 @@ COMPUTER
 *************************/
 
 @media screen and (min-width: 1025px) {
+	#landing-text-scroll {
+		/*background-color: blue;*/
+		height: 65vh;
+		overflow-y: scroll; 
+	}
+
 	#about-heading {
 		margin-top: 8vh;
 	}
@@ -112,6 +118,15 @@ COMPUTER
 	  width: 600px;
 	}
 
+	#subtext {
+	  text-align: left;
+	  margin-right: 120px;
+	  line-height: 25px;
+	  font-size: 12px;
+	  /*font-weight: 600;*/
+	  width: 600px;
+	}
+
 	#bodytext {
 	  text-align: left;
 	  margin-right: 120px;
@@ -159,8 +174,8 @@ COMPUTER
 	}
 
 	#thumbnail {
-		height:40vh;
-		max-height:315px;
+		/*height:40vh;*/
+		/*max-height:315px;*/
 		width: 71vh;
 	}
 }
