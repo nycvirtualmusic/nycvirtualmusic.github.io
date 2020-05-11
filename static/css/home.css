@@ -296,7 +296,11 @@ TABLET
 
 	#thumbnail {
 		width: 75vw;
-		height: 42vw;
+		/*height: 42vw;*/
+	}
+
+	#subtext {
+	  font-size: .75em;
 	}
 
 }
@@ -417,7 +421,11 @@ MOBILE
 
 	#thumbnail {
 		width: 75vw;
-		height: 42vw;
+		/*height: 42vw;*/
+	}
+
+	#subtext {
+	  font-size: .75em;
 	}
 
 }
